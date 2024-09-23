@@ -7,7 +7,7 @@ export:
 
 examples: 
  - VERSION 1:
-  RegisterNetEvent('esx:playerLoaded', function(player, xPlayer, isNew)
+  ```RegisterNetEvent('esx:playerLoaded', function(player, xPlayer, isNew)
     local link = "INSERT YOUR WEBHOOK"
     exports['DFNZ_LOGGER']:sendHook(link, 'Player joined', xPlayer.getName()..' has joined the server', xPlayer.source)
   end)
