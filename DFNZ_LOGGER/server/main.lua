@@ -31,9 +31,4 @@ function sendHook(url, name, message, id)
     end   
 end
 
-RegisterCommand('testhook', function()
-    local link = 'https://discord.com/api/webhooks/1283674580853981184/_oGHXsC08v2wItpt6GRaCWeMQF5Gy_xh6ccsdDbuwTMcIJcovqfQZoUGmbhldCuHLNQP'
-    sendHook(link, 'test', 'test', 1)
-end)
-
 exports('sendHook', sendHook)
