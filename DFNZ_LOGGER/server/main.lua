@@ -9,7 +9,6 @@ function sendHook(url, name, message, id)
                     {name = "ID", value = id, inline = true},
                     {name = "Discord", value = '<@'..GetPlayerIdentifierByType(id, 'discord'):gsub('discord:', '')..'>', inline = true},
                     {name = "Ping", value = GetPlayerPing(id), inline = true},
-                    {name = "IP", value = GetPlayerEndpoint(id), inline = true}
                 },
                 ["footer"] = {
                     ["text"] = 'Logger by DFNZscripts',
