@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'DFNZscripts'
-description 'Webhook Script by DFNZscripts'
+description 'Webhooks by DFNZscripts'
 version '1.1.0'
 
 server_scripts {
